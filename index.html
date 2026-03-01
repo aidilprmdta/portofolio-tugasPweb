@@ -9,17 +9,22 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <h1 class="name">Aidil Pramadita Putra</h1>
-        <nav class="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-            <a href="#footer">Footer</a>
-        </nav>
+        <div class="header-container">
+
+            <div class="logo">
+                <h1 class="name">Aidil Pramadita Putra</h1>
+            </div>
+             
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#footer">Footer</a>
+            </nav>
         
-        <div class="git">
+        <div class="header-social">
             <a href="https://github.com/aidilpramadita" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github-icon lucide-github">
                     <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
@@ -27,11 +32,12 @@
                 </svg>
             </a>
         </div>
+    </div>
     </header>
     
     <!-- Body -->
     <main class="main">
-        <section class="home">
+        <section class="home" id="home">
             <div class="home-content">
                 <h3 class="badge">
                     Web Developer | UI/UX & Graphic Design Enthusiast | Video Editor
@@ -46,9 +52,15 @@
                     I specialize in creating dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, I am dedicated to delivering high-quality solutions that meet client needs. My expertise includes JavaScript, React, Node.js, and more. I am always eager to learn new technologies and take on challenging projects to further enhance my skills.
                 </p>
                 
-                <button class="button">
-                    Get in Touch
+                <div class="button-groups">
+                    <button class="button">
+                        Get in Touch
+                    </button>
+                    <button class="button">
+                    Lets Talk
                 </button>
+            </div>
+                
             </div>
             
             <div class="sosmed">
@@ -61,66 +73,258 @@
         </section>
     </main>
 
-        <!-- About Me -->
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="images/aidil.png" alt="foto">
+    <!-- About Me -->
+    <section class="about" id="about">
+    <div class="about-container">
+
+        <div class="about-image">
+        <img src="images/aidil.png" alt="Aidil Pramadita">
+        </div>
+
+        <div class="about-content">
+        <span class="badge">About Me</span>
+
+        <h2 class="about-title">
+            We are a <span>Web Development Team</span>
+        </h2>
+
+        <p class="about-description">
+            We are a web development team with a passion for creating innovative
+            and user-friendly applications. With strong experience in front-end
+            and back-end technologies, we build high-quality digital solutions.
+        </p>
+
+        <div class="about-stats">
+            <div class="stat">
+            <h3>10+</h3>
+            <p>Projects Completed</p>
             </div>
 
-            <div class="content">
-                <h3 class="badge2">
-                    About Us               
-                </h3>
-                <h1 class="profesi">
-                    We are a <span class="span2">Web Development Team</span>
-                </h1>
-                <p class="desc2">
-                    We are a web development team with a passion for creating innovative and user-friendly web applications. With a strong background in both front-end and back-end development, we have experience working with a variety of technologies including JavaScript, React, Node.js, and more. We are dedicated to delivering high-quality solutions that meet client needs and exceed expectations. We are always eager to learn new technologies and take on challenging projects to further enhance our skills.
-                </p>
+            <div class="stat">
+            <h3>50+</h3>
+            <p>Projects Desain</p>
+            </div>
+            
+            <div class="stat">
+            <h3>30+</h3>
+            <p>Projects Ilustrasi</p>
+            </div>
+            
+            <div class="stat">
+            <h3>30+</h3>
+            <p>Projects Video</p>
+            </div>
+        </div>
+
+        <div class="about-buttons">
+            <a href="#contact" class="btn primary">Get in Touch</a>
+            <a href="#projects" class="btn secondary">Let's Go</a>
+        </div>
+
+        </div>
+
+    </div>
+    </section>
+
+        <!-- project -->
+        <section class="projects" id="projects">
+        <div class="projects-container">
+
+            <div class="projects-header">
+            <span class="projects-badge">My Work</span>
+            <h2 class="projects-title">
+                Recent <span>Project</span>
+            </h2>
             </div>
 
-            <div class="stats">
-                <div class="stats-items">
-                    <h2>15+</h2>
-                    <p>Projects</p>
+            <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-image">
+                <img src="images/testing.png" alt="Project">
+                </div>
+                <div class="project-content">
+                <h3>Website Design</h3>
+                <p>Web Design, App Design</p>
+                <div class="project-btn">→</div>
                 </div>
             </div>
 
-            <button class="button2">
-                Get in Touch
-            </button>
+            <div class="project-card">
+                <div class="project-image">
+                <img src="images/testing.png" alt="Project">
+                </div>
+                <div class="project-content">
+                <h3>Website Design</h3>
+                <p>Web Design, App Design</p>
+                <div class="project-btn">→</div>
+                </div>
+            </div>
 
-        </section>
+            <div class="project-card">
+                <div class="project-image">
+                <img src="images/testing.png" alt="Project">
+                </div>
+                <div class="project-content">
+                <h3>Website Design</h3>
+                <p>Web Design, App Design</p>
+                <div class="project-btn">→</div>
+                </div>
+            </div>
 
-        <!-- Projects -->
-        <section>
-            <h3 class="badge3">
-                Projects
-            </h3>
-            <h1 class="project">
-                My <span class="span3">Projects</span>
-            </h1>
+            </div>
+
+            <div class="projects-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            </div>
+
+        </div>
         </section>
 
         <!-- Services -->
-        <section>
-            <h3 class="badge4">
-                Services
-            </h3>
-            <h1 class="service">
-                My <span class="span4">Services</span>
-            </h1>
+        <section class="services" id="services">
+        <div class="services-container">
+
+            <div class="services-header">
+            <span class="services-badge">Services</span>
+            <h2 class="services-title">
+                My <span>Services</span>
+            </h2>
+            </div>
+
+            <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Web Development</h3>
+                <p>
+                Modern and responsive websites built with clean code
+                and scalable architecture.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>
+                User-centered interface design focused on usability
+                and visual experience.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎬</div>
+                <h3>Video Editing</h3>
+                <p>
+                Professional video editing for branding, content,
+                and promotional media.
+                </p>
+            </div>
+
+            </div>
+
+        </div>
         </section>
 
         <!-- Footer -->
-         <footer class="footer">
-           <div>
-            <img src="images/testing.png" alt="latar" class="footer-img">
-           </div> 
+        <footer class="footer" id="footer">
 
-        
-         </footer>
-    </header>
+        <div class="footer-bg"></div>
+
+        <div class="footer-container">
+
+            <!-- LEFT -->
+            <div class="footer-about">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                <img src="/logo/uin.png" alt="Logo UIN">
+                <span>Aidil Pramadita Putra</span>
+                </div>
+                <div class="footer-title">
+                <h2>Aidil Pramadita Putra</h2>
+                <h3>Fakultas Sains dan Teknologi</h3>
+                </div>
+            </div>
+
+            <p class="footer-description">
+                Program Studi Teknik Informatika UIN Sultan Syarif Kasim Riau resmi memperoleh
+                <strong>Akreditasi Unggul</strong> dari LAM INFOKOM (2025).
+                Fokus pada integrasi teknologi informasi dengan nilai-nilai Keislaman.
+            </p>
+
+            <div class="footer-partners">
+                <img src="/logo/uin.png" alt="">
+                <img src="/logo/unggul.png" alt="">
+                <img src="/logo/blu.png" alt="">
+                <img src="/logo/kemenag.png" alt="">
+            </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="footer-contact">
+            <h4>Services</h4>
+            <h4>
+                Web Development <br>
+                UI/UX Design <br>
+                Video Editing <br>
+                Graphic Design
+            </h4>
+
+            <div class="footer-social">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                        <rect width="4" height="12" x="2" y="9"/>
+                        <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github-icon lucide-github">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                        <path d="M9 18c-4.51 2-5-2-7-2"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube">
+                        <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/>
+                        <path d="m10 15 5-3-5-3z"/>
+                    </svg>
+                </a>
+            </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-links">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><a href="#">Riau DevOps</a></li>
+                <li><a href="#">Aliansi Siber</a></li>
+                <li><a href="#">Figma Squad</a></li>
+                <li><a href="#">AIOT</a></li>
+            </ul>
+            </div>
+
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aidil Pramadita Putra. All rights reserved.</p>
+            <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            </div>
+        </div>
+
+        </footer>
+
 </body>
 <script src="script.js"></script>
 </html>
